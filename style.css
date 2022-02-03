@@ -150,7 +150,7 @@ nav ul li a {
 }
 
 .shehata-btn {
- color: #243b53;
+ color: #f1f4f7;
     background-color: #243b53;
     text-decoration: none;
     font-size: 1.1em;
@@ -178,6 +178,27 @@ background-color: #243b53;
   scale: 0.98;
   
   }
+
+  .form-group {
+color: #fdfdfd;
+    background-color: #243b53;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    margin:2rem;
+
+
+
+}
+
+
+
 
 /* Qualities Section */
 #qualities {

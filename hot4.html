@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+	<html dir="rtl" lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:title" content="دليل المصادر المفتوحة" />
+		<meta property="og:description" content="  نقدم الخدمات التقنية للصحفيين والمؤسسات العربية " />
+		<meta property="og:image" content="https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-6/p180x540/243256435_180094877593908_4372607081231701407_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_ohc=ziJVkQPOreQAX-lx8B7&_nc_ht=scontent.fcai20-6.fna&oh=00_AT8UmvQlClVjmF74UEzAALkVkAYt5TWBupXQC8kO7mHOHw&oe=6201B5A0" />
+
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+		 crossorigin="anonymous" />
+		<title>دليل المصادر المفتوحة</title>
+    <script src="script.js">
+	</script>
+
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="nav-container">
+				<nav>
+					<h3>
+						<a href="./index.html" class="logo"> البحث في القضايا والمحاكم
+					</h3>
+          <ul>
+            <li><a href="./index.html">الصفحة الرئيسية</a></li>
+            <li><a href="#aboutus">من نحن</a></li>
+            <li><a href="#contactus">تواصل معنا</a></li>
+          </ul>
+				</nav>
+			</div>
+
+    <form>
+				<div class="shehata-btn">
+          
+					<label for="url">أدخل الرابط هنا:</label>
+        <input type="text" class="form-control" id="url">
+        
+      </div>
+      </form>
+    <button type="button" onclick="buttonOpen('GoogleCache')" class="shehata-btn">Google</button>
+     <button type="button" onclick="buttonOpen('YandexCache')" class="shehata-btn">Yandex</button>
+     <button type="button" onclick="buttonOpen('BingCache')" class="shehata-btn">Bing</button>
+      <button type="button" onclick="buttonOpen('Baidu')" class="shehata-btn">Baidu.com</button>
+     <button type="button" onclick="buttonOpen('Sogou')" class="shehata-btn">Sogou.com</button>
+      <button type="button" onclick="buttonOpen('365')" class="shehata-btn">So.com(365)</button>
+       <button type="button" onclick="buttonOpen('Naver')" class="shehata-btn">Naver</button>
+       <button type="button" onclick="buttonOpen('Yahoo')" class="shehata-btn">Yahoo</button>
+        <button type="button" onclick="buttonOpen('Mailru')" class="shehata-btn">Mail.ru</button>
+       <button type="button" onclick="buttonOpen('Megalodon')" class="shehata-btn">Megalodon</button>
+     <button type="button" onclick="buttonOpen('Exalead')" class="shehata-btn">Exalead.com</button>
+      <button type="button" onclick="buttonOpen('Gigablast')" class="shehata-btn">Gigablast.com</button>
+     <hr>
+      <button type="button" onclick="buttonOpen('WebArchive')" class="shehata-btn">Web.Archive.org</button>
+       <button type="button" onclick="buttonOpen('ArchiveIS')" class="shehata-btn">Archive.is</button>
+        <button type="button" onclick="buttonOpen('WebCitation')" class="shehata-btn">WebCitation.org</button>
+        <button type="button" onclick="buttonOpen('WikiWix')" class="shehata-btn">Archive.wikiwix.com</button>
+         <button type="button" onclick="buttonOpen('UKWA')" class="shehata-btn">UKWA Web Archive</button>
+          <button type="button" onclick="buttonOpen('Arquivopt')" class="shehata-btn">Arquivo.pt</button>
+          <button type="button" onclick="buttonOpen('Locarchive')" class="shehata-btn">Library of Congress archive</button>
+           <button type="button" onclick="buttonOpen('Archiveit')" class="shehata-btn">Archive-it.org</button>
+          <button type="button" onclick="buttonOpen('Stanfordarchive')" class="shehata-btn">Stanford Web Archive Portal</button>
+          <button type="button" onclick="buttonOpen('Versafn')" class="shehata-btn">Versafn.is</button>
+          <button type="button" onclick="buttonOpen('Hawnskhr')" class="shehata-btn">Croatian Web Archive (only .hr domains)</button>
+            <button type="button" onclick="buttonOpen('Arhivnuk')" class="shehata-btn">Slovenian Web Archive</button>
+            <button type="button" onclick="buttonOpen('Nationalukarchive')" class="shehata-btn">National UK Archive</button>
+            <button type="button" onclick="buttonOpen('Singaporearchive')" class="shehata-btn">Singapore Web Archive</button>
+            <button type="button" onclick="buttonOpen('Trovearchive')" class="shehata-btn">Trove (Australian Web Archive)</button>
+    <button type="button" onclick="buttonOpen('Unchrarchive')" class="shehata-btn">Webarchive.archive.unhcr.org</button>
+    <button type="button" onclick="buttonOpen('Estonianarchive')" class="shehata-btn">Estonian Web Archive</button>
+    
+    <button type="button" onclick="buttonOpen('Pronigovarchive')" class="shehata-btn">PRONI Web Archive (Ireland)</button>
+    <button type="button" onclick="buttonOpen('Unescoarchive')" class="shehata-btn">UNESCO Web Archive</button>
+    <button type="button" onclick="buttonOpen('Endofterm')" class="shehata-btn">End of Term Web Archive</button>
+    <button type="button" onclick="buttonOpen('Czechwebarchive')" class="shehata-btn">Czech Web Archive</button>
+    <button type="button" onclick="buttonOpen('FinnishWebArchive')" class="shehata-btn">Finnish Web Archive (kansalliskirjasto.fi)</button>
+    <button type="button" onclick="buttonOpen('EuExithWebArchive')" class="shehata-btn">EU Exit Web Archive</button>
+    <button type="button" onclick="buttonOpen('AUEBWebArchive')" class="shehata-btn">AUEB Web Archive (Greece)</button>
+        <button type="button" onclick="buttonOpen('CataloniaWebArchive')" class="shehata-btn">Padicat. Web Archive of Catalonia</button>  
+     <button type="button" onclick="buttonOpen('GhostArchive')" class="shehata-btn">Ghostarchive.org</button>  
+
+       </div>
+      
+       <div class="shehata-btn">
+         
+         <b>فتح جميع الروابط في صفحة واحدة :</b> (سوف يبطئ عملية البحث )  <button type="button" onclick="allOpen()" class="shehata-btn">تحقق من هنا</button> 
+      </div>
+			</div>
+		</div>
+		</div>
+
+
+		<footer>
+			<p>تصميم شحاته السيد</p>
+		</footer>
+		</div>
+	</body>
+
+	</html>
+ 
