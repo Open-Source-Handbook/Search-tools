@@ -136,10 +136,9 @@ nav ul li a {
   color: #243b53;
   background: #27ab83;
   text-decoration: none;
-  margin: 1rem;
 
 }
-
+ 
 .btn:hover {
   background: #239673;
 }
@@ -150,7 +149,7 @@ nav ul li a {
 }
 
 .shehata-btn {
- color: #f1f4f7;
+ color: #243b53;
     background-color: #243b53;
     text-decoration: none;
     font-size: 1.1em;
@@ -167,21 +166,17 @@ nav ul li a {
 
 .shehata-btn a {
  text-decoration: none;
- color: #ffff;
+ color: #fdfeff;
  }
 
 .shehata-btn:hover {
-background-color: #243b53;
+background-color: #239673;
 }
 
 .shehata-btn:active {
- scale: 0.98;
+  scale: 0.98;
   
   }
-
-
-
-
 
 /* Qualities Section */
 #qualities {
